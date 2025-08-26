@@ -1,7 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: black;
+    background-color: rgb(136, 193, 125);
     display: flex;
-    height: 100vh;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+button {
+    background-color: rgb(136, 193, 125);
+    width: 7rem;
+    height: 1.8rem;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: salmon;
+}
+
+pre {
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+div {
+    text-align: center;
 }
